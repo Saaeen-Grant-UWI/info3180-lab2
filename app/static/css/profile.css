@@ -1,0 +1,61 @@
+.profile-card {
+    width: 464px;
+    margin: 20px auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.profile-header {
+    background: linear-gradient(to bottom, #0d6efd, #3910f2);
+    height: 80px;
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-top: -40px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.username, .location, .joined {
+    color: #777;
+    font-size: 14px;
+}
+
+.bio {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.follow-btn {
+    background: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.follow-btn:hover {
+    background: #3910f2;
+}

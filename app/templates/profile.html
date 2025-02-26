@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block main %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/profile.css') }}">
+<div class="profile-card">
+    <div class="profile-header"></div>
+    <div class="profile-body">
+        <img src="{{ url_for('static', filename='images/profile.png') }}" alt="Profile Picture" class="profile-pic">
+        <h2>Saaeen Grant</h2>
+        <p class="username">@sgrant</p>
+        <p class="location">Portmore, St.Catherine, Jamaica</p>
+        <p class="joined">Joined {{ joined_date }}</p>
+        <p class="bio">I am a smart and talented young man who loves website design and development. Contact me if you’d like to work together on a new project.</p>
+        <div class="stats">
+            <span><strong>7</strong> Posts</span>
+            <span><strong>100</strong> Following</span>
+            <span><strong>250</strong> Followers</span>
+        </div>
+        <button class="follow-btn">Follow</button>
+    </div>
+</div>
+{% endblock %}
